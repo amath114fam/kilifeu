@@ -1,0 +1,351 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.navbar{
+    min-height: 17vh;
+    background: #f6bb81;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+   
+}
+.navbar img{
+    height: 20%;
+    width: 10%;
+}
+.navbar .ul{
+    margin-right: 10%;
+    display: flex;
+}
+.navbar .ul li{
+    list-style: none;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+.navbar .ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", serif;
+}
+.navbar .ul li a:hover{
+    border-bottom: 5px solid;
+    padding-bottom: 37px;
+    
+}
+.navbar .ul li .active{
+    border-bottom: 5px solid;
+    padding-bottom: 37px;
+}
+
+.page{
+    position: relative;
+    background: #f6bb81;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.page img{
+    width: 90%;
+    height: 70vh;
+}
+.page .desc{
+    margin-top: 40px;
+}
+.page .desc p{
+    margin-top: 30px;
+    line-height: 1.8;
+    
+}
+.page .desc button{
+    margin-top: 30px;
+    background-color: black;
+    border: none;
+    height: 30px;
+    width: 90%;
+    cursor: pointer;
+
+}
+.page button a{
+    text-decoration: none;
+    color: white;
+}
+.pag{
+    background: #f6bb81;
+    min-height: 90vh;
+    width: auto;
+    position: relative;
+}.pag .pagee{
+    margin-top: 20px;
+    margin-left: 3%;
+}
+.pagee h2{
+    line-height: 1;
+}
+.pagee{
+    position: absolute;
+    right: 10%;
+    padding-top: 2%;
+    line-height: 3;
+}
+#B1{
+    background-color: #f6bb81;
+    border: 1px solid;
+    height: 35px;
+    border-radius: 15px;
+    width: 30vh;
+    
+}
+#B2{
+    background-color: #f6bb81;
+    border: 1px solid;
+    height: 35px;
+    border-radius: 15px;
+    width: 40vh;
+}
+#B3{
+    background-color: #f6bb81;
+    border: 1px solid;
+    height: 35px;
+    border-radius: 15px;
+    width: 30vh;
+}
+
+#B1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+#B2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+#B3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900; 
+}
+#nom{
+    height: 35px;
+    border: 3px solid;
+}
+#tel{
+    height: 35px;
+    border: 3px solid;
+}
+#mail{
+    height: 35px;
+    border: 3px solid;
+}
+#tet{
+    height: 150px;
+    border: 3px solid;
+}
+form{
+   
+    display: grid;
+    grid-template-areas: "I1 I2" "I3 I3" "I4 I4";
+    gap: 30px;
+}
+#tet{
+    grid-area: I4;
+}
+#mail{
+    grid-area: I3;
+}
+#B4 a{
+    text-decoration: none;
+    color: white;
+}
+#B4{
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    height: 35px;
+    width: 100%;
+}
+#B4:hover{
+    background-color: rgb(58, 62, 65);
+
+}
+footer{
+    background: url(Screenshot\ 2025-01-05\ at\ 23-29-16\ KILIFE\ –\ Kilife\ BarberShop\ la\ barbière\ qui\ rend\ hommage\ aux\ hommes.png);
+}
+footer{
+    min-height: 40vh;
+}
+.f img{
+    margin-top: 5%;
+    margin-left: 15%;
+    height: 25vh;
+    display: flex;
+}
+.f .ul{
+    display: flex;
+    margin-right: 15%;
+}
+.f .ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 30px;
+    background-color: #f6bb81;
+}
+.f .ul li a{
+    color: white;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .p{
+    color: #f6bb81;
+    margin-left: 40%;
+}
+@media (max-width:1048px){
+    body{
+        margin: 0;
+        padding: 0;
+       width: 100%;
+    }
+    .page{
+        display: block;
+    }
+    .page img{
+        width: 100%;
+    }
+    footer .f{
+       display: grid;
+    }
+    .f .ul{
+       display: flex;
+    }
+    .f .p{
+        text-align: center;
+    }
+    .pag .pagee{
+        display: block;
+    }
+    .pag .pagee h2{
+        text-align: center;
+    }
+    #P{
+        text-align: center;
+    }
+    footer{
+        position: absolute;
+        width: 100%;
+    }
+    form{
+        gap: 0;
+        line-height: 0px;
+    }
+    .pagee{
+        padding-top: 0;
+    }
+    .navbar .ul li a{
+        font-size: 10px;
+        
+    }
+    .page .desc{
+        text-align: center;
+    }
+    #mail{
+        margin-top: 5px;
+    }
+    #tet{
+        margin-top: 5px;
+    }
+    #nom{
+        margin-right: 5px;
+    }
+    
+  
+}
+@media (max-width:500px){
+    body{
+        margin: 0;
+        padding: 0;
+       width: 100%;
+    }
+    .page{
+        display: block;
+    }
+    .page img{
+        width: 100%;
+    }
+    footer .f{
+       display: grid;
+    }
+    .f .ul{
+       display: flex;
+    }
+    .f .p{
+        text-align: center;
+    }
+    .pag .pagee{
+        display: block;
+    }
+    .pag .pagee h2{
+        text-align: center;
+    }
+    #P{
+        text-align: center;
+    }
+    footer{
+        position: absolute;
+        width: 100%;
+    }
+    form{
+        gap: 0;
+        line-height: 0px;
+    }
+    .pagee{
+        padding-top: 0;
+    }
+    .navbar .ul li a{
+        font-size: 10px;
+        
+    }
+    .page .desc{
+        text-align: center;
+    }
+    #mail{
+        margin-top: 5px;
+    }
+    #tet{
+        margin-top: 5px;
+    }
+    #nom{
+        margin-right: 5px;
+    }
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

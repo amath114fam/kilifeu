@@ -3,7 +3,7 @@
     padding: 0;
 }
 .navbar{
-    min-height: 17vh;
+    height: 17vh;
     background: #f6bb81;
     display: flex;
     justify-content: space-between;
@@ -178,7 +178,7 @@ footer{
     background: url(Screenshot\ 2025-01-05\ at\ 23-29-16\ KILIFE\ –\ Kilife\ BarberShop\ la\ barbière\ qui\ rend\ hommage\ aux\ hommes.png);
 }
 footer{
-    min-height: 40vh;
+    min-height: 20vh;
 }
 .f img{
     margin-top: 5%;
@@ -270,10 +270,9 @@ footer .p{
   
 }
 @media (max-width:500px){
-    body{
-        margin: 0;
-        padding: 0;
-       width: 100%;
+    .navbar .ul li{
+        font-size: 5px;
+        white-space: nowrap;
     }
     .page{
         display: block;
@@ -326,8 +325,119 @@ footer .p{
     #nom{
         margin-right: 5px;
     }
+}
+@media screen and (max-width:414px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    #B2 a{
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+    }
+    #B2{
+        background-color: #f6bb81;
+        border: 1px solid black;
+        height: 30px;
+        border-radius: 15px;
+        width: 30vh;
+        margin-left: 10%;
+    }
+    #B3{
+        background-color: #f6bb81;
+        border: 1px solid black;
+        height: 35px;
+        border-radius: 15px;
+        width: 30vh;
+        margin-left: 10%;
+    }
+    #B1{
+        background-color: #f6bb81;
+        border: 1px solid black;
+        height: 35px;
+        border-radius: 15px;
+        width: 30vh;
+        margin-left: 10%;
+    }
+    .page .desc button{
+        margin-top: 30px;
+        margin-right: 2%;
+        background-color: black;
+        border: none;
+        height: 30px;
+        width: 60%;
+        cursor: pointer;
     
-  
+    }
+    .pag{
+        background: #f6bb81;
+        min-height: 70vh;
+        width: auto;
+        position: relative;
+    }
+    .f img{
+        margin-top: 5%;
+        margin-left: 5%;
+        height: 10vh;
+        width: 100px;
+    }
+    footer .f{
+        display: flex;
+        min-height: 5vh;
+    }
+    footer .p{
+        position: relative;
+        color: #f6bb81;
+        margin-left: 21%;
+        margin-top: 15px;
+        white-space: nowrap;
+    }
+    .pag form{
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    #B4{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .navbar{
+      height: 6vh;
+      position: fixed;
+      width: 100%;
+    }
+    .page img{
+        height: 50vh;
+    }
+    .navbar .ul li a:hover{
+        border-bottom: 3px solid;
+        padding-bottom: 16px;
+        
+    }
+    .page button{
+        margin-bottom: 5px;
+    }
+    .navbar .ul li .active{
+        border-bottom: 3px solid;
+        padding-bottom: 16px;
+    }
+    .navbar .ul{
+        margin-right: 10px;
+        display: flex;
+    }
+    .navbar .ul li{
+        list-style: none;
+        padding: 5px;
+        font-size: 1.2rem;
+        
+    }
+    .navbar img{
+        margin-left: 5px;
+        height: 40px;
+        width: 10%;
+    }
+    .page{
+        margin-bottom: 0;
+    }
 }
 
 

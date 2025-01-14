@@ -329,6 +329,10 @@ footer .p{
 @media screen and (max-width:414px) {
     html, body{
         overflow-x: hidden;
+        
+    }
+    .pag .pagee h2{
+        margin-left: 40px;
     }
     #B2 a{
         text-decoration: none;
@@ -341,7 +345,7 @@ footer .p{
         height: 30px;
         border-radius: 15px;
         width: 30vh;
-        margin-left: 10%;
+        margin-left: 15%;
     }
     #B3{
         background-color: #f6bb81;
@@ -349,7 +353,7 @@ footer .p{
         height: 35px;
         border-radius: 15px;
         width: 30vh;
-        margin-left: 10%;
+        margin-left: 15%;
     }
     #B1{
         background-color: #f6bb81;
@@ -357,7 +361,7 @@ footer .p{
         height: 35px;
         border-radius: 15px;
         width: 30vh;
-        margin-left: 10%;
+        margin-left: 15%;
     }
     .page .desc button{
         margin-top: 30px;
@@ -412,9 +416,6 @@ footer .p{
         border-bottom: 3px solid;
         padding-bottom: 16px;
         
-    }
-    .page button{
-        margin-bottom: 5px;
     }
     .navbar .ul li .active{
         border-bottom: 3px solid;

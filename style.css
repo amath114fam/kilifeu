@@ -335,8 +335,7 @@ footer .p{
     }
 
     html, body{
-        overflow-x: hidden;
-        
+        overflow-x: hidden; 
     }
     .pag .pagee h2{
         margin-left: 40px;
@@ -382,7 +381,7 @@ footer .p{
     }
     .pag{
         background: #f6bb81;
-        min-height: 70vh;
+        min-height: 80vh;
         width: auto;
         position: relative;
         margin-top: 0;

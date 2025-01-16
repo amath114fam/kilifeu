@@ -302,7 +302,6 @@ footer .p{
         text-align: center;
     }
     footer{
-        position: absolute;
         width: 100%;
     }
     form{
@@ -330,6 +329,11 @@ footer .p{
     }
 }
 @media screen and (max-width:414px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
     html, body{
         overflow-x: hidden;
         
@@ -367,7 +371,7 @@ footer .p{
         margin-left: 15%;
     }
     .page .desc button{
-        margin-top: 30px;
+        margin-top: 60px;
         margin-right: 2%;
         background-color: black;
         border: none;
@@ -381,6 +385,7 @@ footer .p{
         min-height: 70vh;
         width: auto;
         position: relative;
+        margin-top: 0;
     }
     .f img{
         margin-top: 5%;
@@ -440,7 +445,7 @@ footer .p{
     }
     
     .navbar .ul{
-        height: 35vh;
+        height: 45vh;
         margin-top: 90%;
         position: absolute;
         background-color: rgba(0, 0, 0, 0.5);
@@ -475,10 +480,13 @@ footer .p{
         text-align: center;
         font-weight: 900;
     }
+    .page .desc{
+        margin-bottom: 0;
+    }
     .navbar img{
         margin-left: 5px;
-        height: 40px;
-        width: 10%;
+        height: 10vh;
+        width: 30%;
     }
     .page{
         margin-bottom: 0;
